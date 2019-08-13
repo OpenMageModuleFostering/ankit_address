@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ankit_Address</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add new field in register/checkout pages.</summary>
+    <description>It allows you add new suburb field in register and checkout section.</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>Ankit Dalal</name><user>ankitdalal</user><email>dalalankit013@gmail.com</email></author></authors>
+    <date>2014-10-27</date>
+    <time>10:23:41</time>
+    <contents><target name="magecommunity"><dir name="Ankit"><dir name="Address"><dir name="Block"><file name="Address.php" hash="ba72e9d737985bcffba84a7309ab564f"/></dir><dir name="Helper"><file name="Data.php" hash="286080046dd9f99f59b7e8b1cdb5797d"/></dir><dir name="etc"><file name="config.xml" hash="d7c4bb0c3b0f4f476a43b3b24db08dce"/><file name="system.xml" hash="02b8a1924b1bf53d862775ecb9982d7e"/></dir><dir name="sql"><dir name="address_setup"><file name="mysql4-install-0.1.0.php" hash="8fb941b1006f71b03926eee8db7b1fa6"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ankit_Address.xml" hash="d14fc8d266c4f53d53ed981773325f8c"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="address.xml" hash="7e3e62b9b9da27336b0daa6c6f04385a"/></dir><dir name="template"><dir name="address"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="5c7d724a5f5c85d9837f2a746a316e37"/><file name="shipping.phtml" hash="e87489f6b20ef0e234a8b04b7c28abce"/></dir></dir><dir name="customer"><dir name="address"><file name="edit.phtml" hash="41b7ce6655b56f9a1a7b4ff2bb4cd725"/></dir></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="e44c6b1afceac3d932a300df212cd831"/></dir></dir><dir name="customer"><dir name="form"><file name="register.phtml" hash="e399a02ae40eff4bb3b64b9acf089fde"/></dir></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

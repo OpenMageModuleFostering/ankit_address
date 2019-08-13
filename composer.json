@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ankit_Address",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Add new field in register/checkout pages.",
+    "authors": [
+    {
+        "name": "Ankit Dalal",
+        "email": "dalalankit013@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
